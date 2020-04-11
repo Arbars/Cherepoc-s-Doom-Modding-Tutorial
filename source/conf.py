@@ -21,7 +21,7 @@
 
 project = u'Doom_Manual'
 copyright = u'2020, Как делать карты для Doom'
-author = u'Arbars Zagadkin'
+author = u'Cherepok, Arbars Zagadkin'
 
 # The short X.Y version
 version = u'0.1'
@@ -133,8 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Eureka.tex', u'Eureka Documentation',
-     u'Wesley Werner', 'manual'),
+    (master_doc, 'Doommap.tex', u'Doom Mapping Documentation',
+     u'Arbars Zagadkin', 'manual'),
 ]
 
 
