@@ -7,5 +7,5 @@
    :maxdepth: 1
 
    colormap/index
-   3dblock/index
-   examples/index
+   3dblocks/index
+   example/index
