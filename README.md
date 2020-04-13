@@ -1,7 +1,7 @@
-Eureka Manual
-=============
+Doom mapping Manual
+===================
 
-This is a manual for the [Eureka Doom Editor](http://eureka-editor.sourceforge.net/)
+This is a rework of manual from Doom Power (iddqd.ru)
 
 Status
 ======
@@ -11,7 +11,7 @@ Work in progress
 Building
 ========
 
-[![Documentation Status](https://readthedocs.org/projects/eureka/badge/?version=latest)](http://eureka.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/cherepoc-s-doom-modding-tutorial/badge/?version=latest)](https://cherepoc-s-doom-modding-tutorial.readthedocs.io/ru/latest/?badge=latest)
 
 The docs are built with [Sphinx](http://www.sphinx-doc.org/en/master/#). You need Python installed, use `pip` to install Sphinx:
 
@@ -26,8 +26,3 @@ To build:
 To auto-build on change detection, and serve the site for development:
 
     $ sphinx-autobuild source/ build/
-
-License
-=======
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
