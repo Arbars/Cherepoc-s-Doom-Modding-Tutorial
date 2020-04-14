@@ -1,0 +1,272 @@
+Patch File for DeHackEd v3.0
+# Created with WhackEd2 0.60 build 212
+
+# General version information
+Doom version = 21
+Patch format = 6
+
+# Info for WhackEd2
+Engine config = udoom.cfg
+IWAD = c:\doom legacy\doom2.wad
+
+
+Thing 32 (Imp Fireball Torpedo)
+Bits = 2147550736
+
+Thing 33 (Caco Bouncing Fireball)
+Bits = 66576
+Bits2 = 5
+
+Thing 34 (Torpedo)
+Bits = 2147550736
+Bits2 = 4194304
+
+Thing 35 (Flame)
+Death frame = 111
+Alert Sound = 91
+Death Sound = 91
+Missile damage = 1
+Bits2 = 256
+
+Thing 36 (BFG Spray)
+Initial frame = 118
+Death frame = 119
+Death sound = 0
+Speed = 0
+Bits = 66576
+Bits2 = 1048576
+Mass = 10000
+Width = 65536
+Height = 65536
+Missile damage = 0
+
+Thing 37 (Arach. Flame)
+Initial frame = 107
+Alert Sound = 91
+Death Sound = 91
+Death frame = 111
+Bits2 = 256
+Missile damage = 1
+
+
+
+Frame 6
+Next frame = 9
+
+Frame 7
+Duration = 0
+
+Frame 8
+Sprite subnumber = 3
+Duration = 0
+Next frame = 667
+
+Frame 9
+Next frame = 7
+
+Frame 13
+Duration = 2
+
+Frame 14
+Duration = 4
+
+Frame 15
+Duration = 2
+
+Frame 22
+Next frame = 28
+
+Frame 27
+Next frame = 18
+
+Frame 28
+Duration = 10
+
+Frame 29
+Next frame = 23
+
+Frame 35
+Duration = 2
+
+Frame 36
+Duration = 4
+
+Frame 37
+Duration = 4
+
+Frame 38
+Duration = 4
+
+Frame 39
+Duration = 4
+
+Frame 40
+Duration = 4
+
+Frame 41
+Duration = 4
+
+Frame 42
+Duration = 4
+
+Frame 43
+Duration = 4
+
+Frame 44
+Duration = 3
+
+Frame 45
+Duration = 4
+
+Frame 46
+Duration = 2
+
+Frame 52
+Duration = 2
+
+Frame 53
+Duration = 2
+
+Frame 54
+Next frame = 720
+
+Frame 55
+Duration = 2
+
+Frame 56
+Duration = 2
+
+Frame 71
+Duration = 2
+
+Frame 72
+Duration = 2
+
+Frame 77
+Duration = 1
+
+Frame 107
+Sprite number = 18
+Duration = 2
+
+Frame 108
+Sprite number = 18
+Sprite subnumber = 32768
+Next frame = 109
+Duration = 2
+
+Frame 109
+Sprite number = 18
+Sprite subnumber = 32769
+Duration = 2
+
+Frame 110
+Sprite number = 18
+Duration = 2
+
+Frame 111
+Sprite number = 18
+Duration = 2
+
+Frame 112
+Sprite number = 18
+Duration = 2
+
+Frame 113
+Sprite number = 18
+
+Frame 118
+Next frame = 118
+Duration = 1
+
+Frame 119
+Duration = 0
+Next frame = 0
+
+Frame 648
+Duration = 1
+
+Frame 649
+Duration = 1
+
+Frame 667
+Sprite number = 2
+Sprite subnumber = 3
+Duration = 10
+
+Frame 668
+Sprite number = 2
+Sprite subnumber = 2
+Duration = 4
+Next frame = 669
+
+Frame 669
+Sprite number = 2
+Sprite subnumber = 1
+Duration = 4
+Next frame = 2
+
+Frame 720
+Sprite number = 7
+Sprite subnumber = 0
+Duration = 2
+
+Frame 721
+Sprite number = 7
+Sprite subnumber = 1
+Duration = 3
+
+Frame 722
+Sprite number = 7
+Sprite subnumber = 0
+Duration = 4
+
+Frame 723
+Sprite number = 7
+Sprite subnumber = 1
+Duration = 5
+
+Frame 724
+Sprite number = 7
+Sprite subnumber = 0
+Duration = 6
+
+Frame 725
+Sprite number = 7
+Sprite subnumber = 1
+Duration = 7
+Next frame = 49
+
+
+
+Pointer 448 (Frame 7)
+Codep Frame = 6
+
+Pointer 448 (Frame 8)
+Codep Frame = 6
+
+Pointer 448 (Frame 667)
+Codep Frame = 6
+
+Pointer 448 (Frame 720)
+Codep Frame = 9
+
+Pointer 448 (Frame 721)
+Codep Frame = 9
+
+Pointer 448 (Frame 722)
+Codep Frame = 9
+
+Pointer 448 (Frame 723)
+Codep Frame = 9
+
+Pointer 448 (Frame 724)
+Codep Frame = 9
+
+Pointer 448 (Frame 725)
+Codep Frame = 9
+
+
+
+Misc 0
+BFG Cells/Shot = 20

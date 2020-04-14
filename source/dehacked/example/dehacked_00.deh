@@ -1,0 +1,818 @@
+Patch File for DeHackEd v3.0
+# Created with WhackEd2 0.60 build 212
+
+# General version information
+Doom version = 21
+Patch format = 6
+
+# Info for WhackEd2
+Engine config = udoom.cfg
+IWAD = c:\doom legacy\doom2.wad
+
+
+Thing 2 (Pistol Marine)
+Hit points = 25
+Pain chance = 255
+Pain sound = 25
+Death sound = 57
+Speed = 6
+Bits = 4211718
+Bits2 = 2363392
+
+Thing 3 (Shotgun Marine)
+Initial frame = 174
+Hit points = 50
+First moving frame = 176
+Alert sound = 36
+Injury frame = 187
+Pain chance = 224
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 7
+Bits = 71320582
+Bits2 = 2363392
+Respawn frame = 203
+
+Thing 4 (Dark Medic Marine)
+Initial frame = 174
+Hit points = 1000
+Alert sound = 38
+Injury frame = 187
+Pain chance = 255
+Pain sound = 25
+Far attack frame = 0
+Death frame = 189
+Exploding frame = 194
+Death sound = 58
+Speed = 8
+Action sound = 75
+Bits = 809518086
+Bits2 = 2363392
+Respawn frame = 351
+Mass = 100
+
+Thing 6 (AutoAim Rocket Marine)
+Initial frame = 174
+Hit points = 200
+First moving frame = 176
+Alert sound = 37
+Injury frame = 187
+Pain chance = 96
+Pain sound = 25
+Close attack frame = 0
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 6
+Action sound = 75
+Bits = 138429446
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 7 (AutoAim Rocket)
+Alert sound = 14
+Death frame = 127
+Speed = 1310720
+Missile damage = 20
+
+Thing 9 (Dark Mancubus Marine)
+Initial frame = 174
+Hit points = 750
+First moving frame = 176
+Alert sound = 38
+Injury frame = 187
+Pain chance = 64
+Pain sound = 25
+Far attack frame = 377
+Death frame = 189
+Exploding frame = 194
+Death sound = 58
+Width = 1310720
+Height = 3670016
+Bits = 742409222
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 11 (Chaingun Marine)
+Initial frame = 174
+Hit points = 75
+First moving frame = 176
+Alert sound = 36
+Injury frame = 187
+Pain chance = 64
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Bits = 205538310
+Bits2 = 2363392
+Respawn frame = 203
+
+Thing 13 (Fist Marine)
+Initial frame = 174
+Hit points = 100
+First moving frame = 176
+Alert sound = 36
+Attack sound = 83
+Injury frame = 187
+Pain chance = 128
+Pain sound = 25
+Close attack frame = 487
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Width = 1310720
+Action sound = 75
+Bits = 272647174
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 14 (Invisible Dark Fast Marine)
+Initial frame = 174
+Hit points = 250
+First moving frame = 176
+Alert sound = 38
+Attack sound = 83
+Injury frame = 187
+Pain chance = 96
+Pain sound = 25
+Close attack frame = 487
+Far attack frame = 589
+Death frame = 189
+Exploding frame = 194
+Death sound = 58
+Speed = 8
+Width = 1310720
+Action sound = 75
+Bits = 876889094
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 15 (BFG Marine)
+ID # = 16
+Initial frame = 174
+Hit points = 500
+First moving frame = 176
+Alert sound = 37
+Attack sound = 9
+Injury frame = 187
+Pain chance = 64
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Width = 1310720
+Action sound = 75
+Bits = 541082630
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 16 (Dark Flying Marine)
+Initial frame = 174
+Hit points = 500
+First moving frame = 176
+Alert sound = 38
+Injury frame = 187
+Pain chance = 128
+Pain sound = 25
+Close attack frame = 0
+Death frame = 189
+Exploding frame = 194
+Death sound = 58
+Speed = 4
+Width = 1310720
+Height = 3670016
+Action sound = 75
+Bits = 1012942342
+Bits2 = 2363472
+Respawn frame = 203
+Mass = 100
+
+Thing 19 (Dark Fast Marine)
+Initial frame = 174
+Hit points = 250
+First moving frame = 176
+Alert sound = 38
+Attack sound = 83
+Injury frame = 187
+Pain chance = 64
+Pain sound = 25
+Close attack frame = 487
+Death frame = 189
+Exploding frame = 194
+Death sound = 58
+Width = 1310720
+Action sound = 75
+Bits = 876626950
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 20 (Super Chaingun Marine)
+Initial frame = 174
+Hit points = 400
+First moving frame = 176
+Alert sound = 37
+Attack sound = 0
+Injury frame = 187
+Pain chance = 32
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 6
+Width = 1310720
+Height = 3670016
+Action sound = 75
+Bits = 675300358
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 21 (Plasma Rifle Marine)
+Initial frame = 174
+Hit points = 300
+First moving frame = 176
+Alert sound = 36
+Injury frame = 187
+Pain chance = 48
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 8
+Width = 1310720
+Height = 3670016
+Action sound = 75
+Bits = 608191494
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 22 (Rocket Marine)
+ID # = 305
+Initial frame = 174
+Hit points = 150
+First moving frame = 176
+Alert sound = 36
+Injury frame = 187
+Pain sound = 25
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 6
+Width = 1310720
+Height = 3670016
+Action sound = 75
+Bits = 406864902
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 23 (Berserk Marine)
+Initial frame = 174
+Hit points = 100
+First moving frame = 176
+Alert sound = 37
+Injury frame = 187
+Pain sound = 25
+Close attack frame = 335
+Far attack frame = 0
+Death frame = 189
+Exploding frame = 194
+Death sound = 57
+Speed = 10
+Width = 1310720
+Action sound = 75
+Bits = 675300358
+Bits2 = 2363392
+Respawn frame = 203
+Mass = 100
+
+Thing 33 (Marine BFG Shot)
+Initial frame = 115
+Alert sound = 0
+Death frame = 117
+Death sound = 15
+Speed = 1638400
+Width = 851968
+Missile damage = 100
+
+Thing 37 (Marine Plasma Bullet)
+Initial frame = 107
+Death frame = 109
+
+
+
+Frame 174
+Sprite number = 28
+
+Frame 175
+Sprite number = 28
+
+Frame 176
+Sprite number = 28
+Duration = 1
+
+Frame 177
+Sprite number = 28
+Duration = 1
+
+Frame 178
+Sprite number = 28
+Duration = 1
+
+Frame 179
+Sprite number = 28
+Duration = 1
+
+Frame 180
+Sprite number = 28
+Duration = 1
+
+Frame 181
+Sprite number = 28
+Duration = 1
+
+Frame 182
+Sprite number = 28
+Duration = 1
+
+Frame 183
+Sprite number = 28
+Duration = 1
+Next frame = 209
+
+Frame 184
+Sprite number = 28
+Duration = 12
+
+Frame 185
+Sprite number = 28
+Duration = 6
+
+Frame 186
+Sprite number = 28
+Duration = 12
+
+Frame 187
+Sprite number = 28
+Duration = 4
+
+Frame 188
+Sprite number = 28
+Duration = 4
+
+Frame 189
+Sprite number = 28
+Duration = 10
+
+Frame 190
+Sprite number = 28
+Duration = 10
+
+Frame 191
+Sprite number = 28
+Duration = 10
+
+Frame 192
+Sprite number = 28
+Duration = 10
+
+Frame 193
+Sprite number = 28
+Duration = 10
+Next frame = 225
+
+Frame 194
+Sprite number = 28
+Sprite subnumber = 14
+
+Frame 195
+Sprite number = 28
+Sprite subnumber = 15
+
+Frame 196
+Sprite number = 28
+Sprite subnumber = 16
+
+Frame 197
+Sprite number = 28
+Sprite subnumber = 17
+
+Frame 198
+Sprite number = 28
+Sprite subnumber = 18
+
+Frame 199
+Sprite number = 28
+Sprite subnumber = 19
+
+Frame 200
+Sprite number = 28
+Sprite subnumber = 20
+
+Frame 201
+Sprite number = 28
+Sprite subnumber = 21
+
+Frame 202
+Sprite number = 28
+Sprite subnumber = 22
+
+Frame 203
+Sprite number = 28
+Sprite subnumber = 12
+Duration = 10
+
+Frame 204
+Sprite number = 28
+Sprite subnumber = 11
+Duration = 10
+
+Frame 205
+Sprite number = 28
+Sprite subnumber = 10
+Duration = 10
+
+Frame 206
+Sprite number = 28
+Sprite subnumber = 9
+Duration = 10
+Next frame = 239
+
+Frame 209
+Sprite number = 28
+Duration = 1
+
+Frame 210
+Sprite number = 28
+Duration = 1
+
+Frame 211
+Sprite number = 28
+Duration = 1
+
+Frame 212
+Sprite number = 28
+Duration = 1
+
+Frame 213
+Sprite number = 28
+Duration = 1
+
+Frame 214
+Sprite number = 28
+Duration = 1
+
+Frame 215
+Sprite number = 28
+Duration = 1
+
+Frame 216
+Sprite number = 28
+Duration = 1
+Next frame = 176
+
+Frame 217
+Sprite number = 28
+Duration = 12
+
+Frame 218
+Sprite number = 28
+Duration = 6
+
+Frame 219
+Sprite number = 28
+Duration = 12
+
+Frame 225
+Sprite number = 28
+Sprite subnumber = 12
+Duration = 10
+
+Frame 226
+Sprite number = 28
+Sprite subnumber = 13
+
+Frame 239
+Sprite number = 28
+
+Frame 240
+Sprite number = 28
+Next frame = 176
+
+Frame 243
+Sprite number = 28
+Duration = 1
+
+Frame 244
+Sprite number = 28
+Duration = 1
+
+Frame 245
+Sprite number = 28
+Sprite subnumber = 0
+Duration = 1
+
+Frame 246
+Sprite number = 28
+Duration = 1
+
+Frame 247
+Sprite number = 28
+Sprite subnumber = 1
+Duration = 1
+
+Frame 248
+Sprite number = 28
+Sprite subnumber = 1
+Duration = 1
+
+Frame 249
+Sprite number = 28
+Sprite subnumber = 2
+Duration = 1
+
+Frame 250
+Sprite number = 28
+Sprite subnumber = 2
+Duration = 1
+
+Frame 251
+Sprite number = 28
+Sprite subnumber = 2
+Duration = 1
+
+Frame 252
+Sprite number = 28
+Sprite subnumber = 3
+Duration = 1
+
+Frame 253
+Sprite number = 28
+Sprite subnumber = 3
+Duration = 1
+
+Frame 254
+Sprite number = 28
+Sprite subnumber = 3
+Duration = 1
+
+Frame 266
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 267
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 268
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 316
+Sprite number = 22
+Duration = 1
+
+Frame 317
+Sprite number = 22
+Sprite subnumber = 32768
+Duration = 1
+
+Frame 335
+Sprite number = 28
+Sprite subnumber = 1
+Duration = 6
+
+Frame 336
+Sprite number = 28
+Sprite subnumber = 2
+
+Frame 337
+Sprite number = 28
+Sprite subnumber = 3
+
+Frame 338
+Sprite number = 28
+Sprite subnumber = 4
+Next frame = 176
+
+Frame 339
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 6
+
+Frame 340
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 6
+
+Frame 341
+Sprite number = 28
+Sprite subnumber = 5
+Duration = 5
+
+Frame 342
+Sprite number = 28
+Sprite subnumber = 5
+Duration = 5
+Next frame = 176
+
+Frame 351
+Sprite number = 28
+Sprite subnumber = 12
+Duration = 10
+
+Frame 352
+Sprite number = 28
+Sprite subnumber = 11
+Duration = 10
+
+Frame 353
+Sprite number = 28
+Sprite subnumber = 10
+Duration = 10
+
+Frame 354
+Sprite number = 28
+Sprite subnumber = 9
+Duration = 10
+
+Frame 355
+Sprite number = 28
+Sprite subnumber = 8
+Duration = 10
+
+Frame 356
+Sprite number = 28
+Sprite subnumber = 7
+Duration = 10
+Next frame = 243
+
+Frame 377
+Sprite number = 28
+Sprite subnumber = 32773
+Duration = 0
+Next frame = 380
+
+Frame 378
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 12
+Next frame = 377
+
+Frame 379
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 12
+Next frame = 176
+
+Frame 380
+Sprite number = 28
+Sprite subnumber = 32773
+Duration = 0
+Next frame = 383
+
+Frame 383
+Sprite number = 28
+Sprite subnumber = 32773
+Next frame = 379
+
+Frame 416
+Sprite number = 28
+
+Frame 417
+Sprite number = 28
+
+Frame 418
+Sprite number = 28
+
+Frame 419
+Sprite number = 28
+
+Frame 485
+Sprite number = 28
+Duration = 4
+Next frame = 176
+
+Frame 486
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 4
+Next frame = 485
+
+Frame 487
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 4
+Next frame = 486
+
+Frame 504
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 30
+Next frame = 506
+
+Frame 505
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 12
+Next frame = 176
+
+Frame 506
+Sprite number = 28
+Sprite subnumber = 32773
+Duration = 10
+Next frame = 505
+
+Frame 537
+Sprite number = 28
+Duration = 12
+Next frame = 539
+
+Frame 538
+Sprite number = 28
+Sprite subnumber = 4
+Duration = 12
+Next frame = 176
+
+Frame 539
+Sprite number = 28
+Sprite subnumber = 5
+Duration = 10
+Next frame = 538
+
+Frame 589
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 12
+
+Frame 590
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 1
+
+Frame 591
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 1
+
+Frame 592
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 1
+
+Frame 615
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 616
+Sprite number = 28
+Sprite subnumber = 32773
+
+Frame 617
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 618
+Sprite number = 28
+Sprite subnumber = 32773
+
+Frame 647
+Sprite number = 28
+Sprite subnumber = 32772
+
+Frame 648
+Sprite number = 28
+Sprite subnumber = 32773
+Duration = 1
+
+Frame 649
+Sprite number = 28
+Sprite subnumber = 32772
+Duration = 2
+
+Frame 650
+Sprite number = 28
+Sprite subnumber = 32773
+
+Frame 684
+Sprite number = 28
+Duration = 12
+
+Frame 685
+Sprite number = 28
+Duration = 10
+
+Frame 686
+Sprite number = 28
+Next frame = 176
+

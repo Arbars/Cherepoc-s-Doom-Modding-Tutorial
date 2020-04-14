@@ -10,3 +10,4 @@
    basics/index
    boom/index
    legacy/index
+   dehacked/index
